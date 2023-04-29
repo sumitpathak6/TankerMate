@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="tankerstyle.css">
+
+<form>
+    <label for="username">Enter the details of the chemical:</label>
+    <input type="text" id="username" name="username">
+    <br><br>
+    <label for="password">Enter the precautions for the driver(if any):</label>
+    <input type="password" id="password" name="password">
+    <br><br>
+    <br><br>
+    
+    <label for="Source">Enter the source plant:</label>
+<select id="start" name="fruit">
+  <option value="apple">Choose</option> 
+  <option value="apple">Vapi</option>
+  <option value="banana">Jamnagar</option>
+  <option value="orange">Bharuch </option>
+  <option value="strawberry">Nasirabad</option>
+</select>
+<br>
+<br>
+<label for="Source">Enter the destination plant:</label>
+<select id="end" name="fruit">
+  <option value="apple">Choose</option>
+  <option value="apple">Vapi</option>
+  <option value="banana">Jamnagar</option>
+  <option value="orange">Bharuch </option>
+  <option value="strawberry">Nasirabad</option>
+</select>
+<br>
+
+<label for="number2">Enter the distance between source and destination plants:</label>
+    <input type="number" id="number2" name="number2" min="1">
+
+    <br><br>
+  
+    <label for="result">Estimated Fare:</label>
+    <input type="number" id="result" name="result" readonly>
+    <br><br><br>
+    <input type="submit" style="background-color: brown;"  value="Confirm">
+  </form>
+
+  
+  <script src="result.js"></script>
+  
